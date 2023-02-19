@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './css/navbar.css';
 import Logo from '../../assets/logo.png';
+import { useMatch, Link } from 'react-router-dom';
 
 const Navbar = () => {
   return(
@@ -9,8 +10,8 @@ const Navbar = () => {
         <img id="bar-logo-img" src={Logo} />
       </div>
       <div id="bar-clickables-cont">
-        <div id="bar-login-button">Login</div>
-        <div id="bar-demo-button">Request a Demo</div>
+        <Link id="bar-login-button">Login</Link>
+        <Link id="bar-demo-button">Request a Demo</Link>
       </div>
     </div>
   );
