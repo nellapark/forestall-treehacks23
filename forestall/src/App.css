@@ -1,0 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
+input {
+  box-sizing: border-box;
+}

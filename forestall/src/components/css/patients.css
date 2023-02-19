@@ -1,0 +1,218 @@
+#patients-cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+#patients-inner-cont {
+  width: 80%;
+  height: 100%;
+  color: #7BB9C5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#patients-child-cont {
+  width: 95%;
+  height: 90%;
+  background-color: #FAF8F6;
+  border-radius: 5px;
+  border: 3px solid #C9D8DB;
+}
+
+#patients-search-cont {
+  width: 100%;
+  height: 10%;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  border-bottom: 3px solid #C9D8DB;
+  /* background-color: pink; */
+}
+
+#patients-search-input {
+  width: 90%;
+  height: 100%;
+  padding-left: 24px;
+  border: none;
+  outline: none;
+  color: #7BB9C5;
+  font-size: 18px;
+}
+
+#patients-search-button {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7bb9c5;
+  cursor: pointer;
+}
+#patients-search-toggle {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.patients-search-imgs {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.patients-cell-imgs {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+#patients-parameters-cont {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  font-weight: 600;
+  border-bottom: 3px solid #BAD9E0
+  /* background-color: red; */
+}
+
+.patients-parameter {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+}
+
+.patients-horizontal-split-cell {
+  width: 100%;
+  height: 40%;
+  padding-left: 70px;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+}
+
+.patients-subsection-inner {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.patients-img {
+  width: 80%;
+  /* height: 60%; */
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.patients-arrow-imgs {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  object-fit: contain;
+}
+
+#patients-results-cont {
+  width: 100%;
+  height: 81%;
+}
+
+.patients-row-cont {
+  text-decoration: none;
+  /* cursor: pointer; */
+  display: flex;
+  width: 100%;
+  height: 120px;
+  color: #545D5F;
+  border-bottom: 3px solid #BAD9E0;
+}
+
+.patients-male-label {
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #68A8C1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FAF8F6;
+  font-size: 14px;
+}
+.patients-female-label {
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #FDAAB4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FAF8F6;
+  font-size: 14px;
+}
+
+.patients-weight-label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #E8F0F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.patients-age-label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #E8F0F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.patients-allergy-cell {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #FBEBCF;
+}
+
+.patients-medication-cell {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #E8F0F2;
+  
+}
+
+.patients-risk-label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  /* background-color: #E8F0F2; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 14px;
+  color: #FAF8F6;
+}

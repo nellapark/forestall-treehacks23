@@ -1,0 +1,18 @@
+#mistakes-cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.reported-error-header {
+  font-size: 24px;
+  font-weight: 600;
+  color: #545D5F;
+  margin-left: 15px;
+}
+.reported-error-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 30px;
+}
